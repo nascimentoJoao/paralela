@@ -1,0 +1,4 @@
+If you compile normally with 'gcc File.c -o File', nothing will happen. 
+Just show the simple message written in the code.
+But, if you compile with 'gcc -fopenmp File.c -o File' and run, multiple messages
+may appear.

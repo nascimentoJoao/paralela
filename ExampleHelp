@@ -1,0 +1,7 @@
+Explaining some clauses:
+
+if(expr) - It will parallel only if expression is true.
+Contrariwise, execution will only be sequential. (Only by master thread)
+
+num_threads(expr) - Run parallel with the number of threads equal
+to the expr value.
